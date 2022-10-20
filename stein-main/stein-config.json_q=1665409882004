@@ -1,0 +1,161 @@
+{
+  "stein": "This is a Stein configuration file",
+  "steinVersion": 7,
+  "creation": "20221003-154915",
+  "export": "20221010-135517",
+  "systemUrl": "https://vega.github.io/falcon/flights-duckdb/",
+  "uploadUrl": "",
+  "title": "EpicaEval2",
+  "description": "Ehy",
+  "lastEditedFileName": "",
+  "dataTypes": [
+    {
+      "name": "undefined",
+      "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+    },
+    {
+      "name": "marks",
+      "toStringFunction": "(function(d){var result = d.toString();/*body-start*//*body-end*/;return result;})"
+    }
+  ],
+  "events": [
+    {
+      "type": "click",
+      "name": "click-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'click') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "click/CANVAS//marks"
+    },
+    {
+      "type": "mousedown",
+      "name": "mousedown-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'mousedown') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "mousedown/CANVAS//marks"
+    },
+    {
+      "type": "mousemove",
+      "name": "mousemove-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'mousemove') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "mousemove/CANVAS//marks"
+    },
+    {
+      "type": "wheel",
+      "name": "wheel-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'wheel') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "wheel/CANVAS//marks"
+    },
+    {
+      "type": "dblclick",
+      "name": "dblclick-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'dblclick') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "dblclick/CANVAS//marks"
+    },
+    {
+      "type": "mouseup",
+      "name": "mouseup-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'mouseup') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "mouseup/CANVAS//marks"
+    },
+    {
+      "type": "touchend",
+      "name": "touchend-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'touchend') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "touchend/CANVAS//marks"
+    },
+    {
+      "type": "touchmove",
+      "name": "touchmove-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'touchmove') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "touchmove/CANVAS//marks"
+    },
+    {
+      "type": "touchstart",
+      "name": "touchstart-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'touchstart') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "touchstart/CANVAS//marks"
+    },
+    {
+      "type": "dragleave",
+      "name": "dragleave-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'dragleave') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "dragleave/CANVAS//marks"
+    },
+    {
+      "type": "mouseout",
+      "name": "mouseout-on-marks",
+      "dataType": "marks",
+      "contributeToAnswer": "Yes",
+      "specializeEvent": "(function(event){if(event.type != 'mouseout') return false;var result = false;if(event.targetClass.split('.').includes('marks')) result = true;;return result;})",
+      "traceData": "(function(event){var result = null;if(event.targetId != '') result = event.targetId;\nelse if(event.targetClass != '') result = event.targetClass;\nelse if(event.parentId != '') result = event.parentId;\nelse if(event.parentClass != '') result = event.parentClass;\nelse result = event.targetClass;;return result;})",
+      "generator": "mouseout/CANVAS//marks"
+    }
+  ],
+  "initialQuestions": [
+    {
+      "id": 1,
+      "text": "What is your age ?",
+      "responseType": "multiple-choice",
+      "options": [
+        "Under 18",
+        "18-24",
+        "25-34",
+        "35-44",
+        "45-54",
+        "More than 54"
+      ],
+      "images": [],
+      "mandatory": true
+    },
+    {
+      "id": 2,
+      "text": "Select your gender:",
+      "responseType": "multiple-choice",
+      "options": [
+        "Male",
+        "Female"
+      ],
+      "images": [],
+      "mandatory": true
+    }
+  ],
+  "systemQuestions": [],
+  "finalQuestions": [
+    {
+      "id": 1,
+      "text": "Please provide us additional comments if you have any.",
+      "responseType": "large-text",
+      "options": [],
+      "images": [],
+      "mandatory": true
+    }
+  ]
+}
